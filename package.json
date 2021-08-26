@@ -20,7 +20,7 @@
     "pohodnik.tk"
   ],
   "author": "Pohodnik",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/pohodnik/poh-ui/issues"
   },
