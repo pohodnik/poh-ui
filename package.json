@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pohodnik58/poh-ui.git"
+    "url": "git+https://github.com/pohodnik/poh-ui.git"
   },
   "keywords": [
     "ui",
@@ -22,7 +22,7 @@
   "author": "Pohodnik",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pohodnik58/poh-ui/issues"
+    "url": "https://github.com/pohodnik/poh-ui/issues"
   },
-  "homepage": "https://github.com/pohodnik58/poh-ui#readme"
+  "homepage": "https://github.com/pohodnik/poh-ui#readme"
 }
