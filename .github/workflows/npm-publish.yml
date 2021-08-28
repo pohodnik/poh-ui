@@ -40,7 +40,8 @@ jobs:
 
       - name: Pushing new version to git
         run: |
-          git push --tags
+          git tag ${{ env.NEWVER }}
+          git push --tags --set-upstream origin master
 
       - name: Prepare NPM
         run: echo "//registry.npmjs.org/:_authToken=${{secrets.NPM_TOKEN}}" >> ./.npmrc
