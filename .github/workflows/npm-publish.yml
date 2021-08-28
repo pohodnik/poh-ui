@@ -40,6 +40,7 @@ jobs:
 
       - name: Pushing new version to git
         run: |
+          git tag ${{ env.NEWVER }}
           git push --tags --set-upstream origin master
 
       - name: Prepare NPM
