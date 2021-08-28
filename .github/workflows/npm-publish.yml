@@ -40,7 +40,6 @@ jobs:
 
       - name: Pushing new version to git
         run: |
-          git push
           git push --tags
 
       - name: Prepare NPM
